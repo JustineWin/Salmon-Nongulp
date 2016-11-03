@@ -1,0 +1,135 @@
+ /*======= CUSTOM CSS ======*/
+
+ /*Fonts*/
+ 
+ @font-face {
+     font-family: 'Fira Sans';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Fira Sans'), local('FiraSans-Regular'), url(http://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+ }
+ @font-face {
+     font-family: 'Fira Sans';
+     font-style: normal;
+     font-weight: 700;
+     src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(http://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+ }
+ @font-face {
+     font-family: 'Fira Mono';
+     font-style: normal;
+     font-weight: 400;
+     src: local('Fira Mono'), local('FiraMono'), url(http://fonts.gstatic.com/s/firamono/v3/SlRWfq1zeqXiYWAN-lnG-pBw1xU1rKptJj_0jans920.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+ }
+ /*General*/
+ 
+ body {
+     font-family: 'Open Sans';
+     padding: 0 0 50px 0;
+ }
+ /*Typography*/
+ 
+ h1 {
+     font-size: 30px;
+     font-family: 'Open Sans';
+     color: salmon;
+     text-align: center;
+ }
+ h2 {
+     font-size: 20px;
+     font-family: 'Open Sans';
+     color: salmon;
+     margin: 30px 0;
+ }
+ a {
+     color: salmon;
+     text-decoration: none;
+ }
+ p {
+     line-height: 30px;
+     color: #000;
+     font-size: 16px;
+ }
+ em {
+     font-style: italic;
+ }
+ strong {
+     font-weight: bold;
+ }
+ hr {
+     border: solid #ddd;
+     border-width: 1px 0 0;
+     clear: both;
+     margin: 10px 0 30px;
+     height: 0;
+ }
+ /*Button*/
+ 
+ .fork-btn {
+     text-decoration: none;
+     padding: 15px 30px;
+     color: salmon;
+     text-align: center;
+     font-size: 12px;
+     font-weight: 600;
+     text-transform: uppercase;
+     border-radius: 4px;
+     border: 1px solid rgba(255, 194, 194, 0.6);
+     cursor: pointer;
+ }
+ .fork-btn:hover,
+ .fork-btn:active,
+ .fork-btn:focus {
+     background: salmon;
+     color: white;
+     outline: 0;
+     transition: .2s ease-in-out;
+ }
+ /*Body*/
+ 
+ nav {
+     padding: 20px 30px 0 30px;
+ }
+ ul {
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 0;
+ }
+ li:first-of-type {
+     color: salmon;
+     font-family: 'Fira Sans';
+     font-size: 18px;
+ }
+ .-highlight {
+     font-size: 18px;
+     background-color: rgba(255, 194, 194, 0.2);
+     text-align: center;
+     padding: 10px;
+ }
+ /*Media Queries*/
+ /* Large Devices, Wide Screens */
+ @media only screen and (max-width: 1200px) {
+
+ }
+ /* Medium Devices, Desktops */
+ @media only screen and (max-width: 992px) {
+
+ }
+ /* Small Devices, Tablets */
+
+ @media only screen and (max-width: 768px) {
+
+ }
+ /* Extra Small Devices, Phones */
+ @media only screen and (max-width: 480px) {
+
+ }
+ /* Custom, iPhone Retina */
+ 
+ @media only screen and (max-width: 320px) {
+ 	
+ }
